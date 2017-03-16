@@ -17,6 +17,6 @@ async function example() {
 example();
 ```
 
-# License
+## License
 
 MIT
