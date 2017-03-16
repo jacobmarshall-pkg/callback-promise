@@ -1,0 +1,23 @@
+{
+  "name": "@jacobmarshall/callback-promise",
+  "version": "0.0.0",
+  "description": "A simple promise utility to assist with third party node-style callback functions.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobmarshall-pkg/callback-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "callback"
+  ],
+  "author": "Jacob Marshall <git@jacobmarshall.co> (https://j.msh.al)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobmarshall-pkg/callback-promise/issues"
+  },
+  "homepage": "https://github.com/jacobmarshall-pkg/callback-promise"
+}
