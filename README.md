@@ -5,16 +5,16 @@ Instead of using a utility like Bluebird's promisify to create a version of func
 If that doesn't make sense, check out this "simple" example.
 
 ```js
-import fs from 'fs';                                            // 1
-import callbackPromise from '@jacobmarshall/callback-promise';  // 2
-                                                                // 3
-async function example() {                                      // 4
-  const passwords = callbackPromise();                          // 5
-  fs.readFile('/etc/passwd', passwords);                        // 6
-  console.log('Passwords: ' + await passwords);                 // 7
-}                                                               // 8
-                                                                // 9
-example();                                                      // 10
+import fs from 'fs';
+import callbackPromise from '@jacobmarshall/callback-promise';
+
+async function example() {
+  const passwords = callbackPromise();
+  fs.readFile('/etc/passwd', passwords);
+  console.log('Passwords: ' + await passwords);
+}
+
+example();
 ```
 
 # License
