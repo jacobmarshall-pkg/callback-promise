@@ -1,6 +1,6 @@
 {
   "name": "@jacobmarshall/callback-promise",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple promise utility to assist with third party node-style callback functions.",
   "main": "index.js",
   "repository": {
